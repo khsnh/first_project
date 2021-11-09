@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
 	def hello
-		render html: "snoop d o motherfucker double g"
+
+		render html: "title"
 	end
 end
