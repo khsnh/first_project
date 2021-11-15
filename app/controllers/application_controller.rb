@@ -1,6 +1,9 @@
 class ApplicationController < ActionController::Base
-	def hello
+	# Logs in the given user.
+	
+	include SessionsHelper
 
+	def hello
 		render html: "title"
 	end
 end
